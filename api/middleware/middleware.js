@@ -2,7 +2,7 @@ const Users = require('../users/users-model')
 
 function logger(req, res, next) {
   // DO YOUR MAGIC
-  console.log(req.method,req.url)
+  console.log(req)
   console.timeStamp()
 }
 
